@@ -12,7 +12,16 @@ BASE_URL = "https://www.instapaper.com/"
 HOMEPAGE = BASE_URL + 'u/'
 DEFAULT_OUTPUT_FOLDER = "./pdfs/homepage/"
 CATEGORIES = [
-  {"name": "react", "id": 4131451}
+  {"name": "react", "id": 4131451},
+  {"name": "ruby", "id": 4131452},
+  {"name": "tech", "id": 4131463},
+  {"name": "food", "id": 4131464},
+  {"name": "sports", "id": 4131465},
+  {"name": "deno", "id": 4132578},
+  {"name": "typescript", "id": 4134534},
+  {"name": "golang", "id": 4137642},
+  {"name": "photography", "id": 4202728},
+  {"name": "career", "id": 4355149},
   ]
 
 
