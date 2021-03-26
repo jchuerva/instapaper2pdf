@@ -10,7 +10,7 @@ You need to set up the `INSTAPAPER_USERNAME` & `INSTAPAPER_PASSWORD` local env v
 
 ## Run
 
-You need to update the `CATEGORY` variable in the `main.py` file, adding each folder name and id
+If you want to unclude the folders, you need to update the `CATEGORY` variable in the `main.py` file, adding each folder name and id
 
 Then, run:
 
