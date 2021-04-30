@@ -22,6 +22,7 @@ CATEGORIES = [
   {"name": "golang", "id": 4137642},
   {"name": "photography", "id": 4202728},
   {"name": "career", "id": 4355149},
+  {"name": "python", "id": 4355160},
   ]
 
 
@@ -39,9 +40,9 @@ class Instapaper:
     return session
 
   def _build_output_folder(self, subfolder):
-    output_folder = DEFAULT_OUTPUT_FOLDER
+    output_folder = DEFAULT_OUTPUT_FOLDER + "/home/"
     if subfolder is not None:
-      output_folder = output_folder + subfolder + "/"
+      output_folder = DEFAULT_OUTPUT_FOLDER + "/" + subfolder + "/"
 
     # ensure the folder is created
     if not os.path.exists(output_folder):
