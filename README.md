@@ -6,7 +6,9 @@ This script download all your instapaper articles in pdf format.
 
 ## Setup
 
-You need to set up the `INSTAPAPER_USERNAME` & `INSTAPAPER_PASSWORD` local env variables.
+You need to set up your `INSTAPAPER_USERNAME` & `INSTAPAPER_PASSWORD` as local env variables.
+
+You also need to install `wkhtmltopdf`: `brew install --cask wkhtmltopdf`
 
 ## Run
 
